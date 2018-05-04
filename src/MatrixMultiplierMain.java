@@ -18,7 +18,7 @@ import javax.swing.ListSelectionModel;
 
 import java.util.concurrent.ExecutionException;
 
-public class MainGUI {
+public class MatrixMultiplierMain {
 
 	// GUI to select # threads and output time for each method
 	private JFrame mainFrame;
@@ -34,11 +34,11 @@ public class MainGUI {
 
 
 	public static void main(String[] args){
-		MainGUI matrixGUI = new MainGUI();
+		MatrixMultiplierMain matrixGUI = new MatrixMultiplierMain();
 		matrixGUI.GUIelements();
 	}
 
-	public MainGUI(){
+	public MatrixMultiplierMain(){
 		prepareGUI();
 	}
 
